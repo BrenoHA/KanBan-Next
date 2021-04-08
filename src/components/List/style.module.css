@@ -1,0 +1,40 @@
+.container {
+  padding: 0 15px;
+  height: 100%;
+  flex: 0 0 320px;
+  /* flex-grow, flex-shrink, flex-basis */
+}
+.containerDone {
+  opacity: 0.6;
+}
+
+/* pegando todas as divs menos a primeira */
+.container:nth-child(1n + 2) {
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+}
+
+.container header h2 {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.container header button {
+  height: 42px;
+  width: 42px;
+  border-radius: 10px;
+  background: #4cb8bf;
+  border: 0;
+  cursor: pointer;
+}
+
+.container ul {
+  margin-top: 30px;
+}

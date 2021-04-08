@@ -1,0 +1,13 @@
+.container {
+  height: 70px;
+  padding: 0 30px;
+  background: #0b6c73;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+.container h1 {
+  font-weight: 500;
+}
