@@ -26,6 +26,28 @@
   margin-top: 5px;
 }
 
+/* IsDraggin */
+
+.containerIsDragging {
+  border: 2px dashed rgba(0, 0, 0, 0.2);
+  padding-top: 31px;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: none;
+  cursor: grabbing;
+  /* FIXME cursor grabbing */
+}
+
+.containerIsDragging p {
+  opacity: 0;
+}
+.containerIsDragging img {
+  opacity: 0;
+}
+.containerIsDragging header {
+  opacity: 0;
+}
+
 .label {
   width: 10px;
   height: 10px;
